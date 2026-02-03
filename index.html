@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Climate Change Education – FYBSc IT Project</title>
+  <meta name="description" content="FYBSc IT project on Climate Change Education with quizzes, data, accessibility, and awareness." />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f8f7; color: #1f2933; line-height: 1.6; }
+    header { background: #064e3b; color: white; padding: 2rem; text-align: center; }
+    nav { background: #065f46; padding: 0.7rem; text-align: center; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: bold; }
+    section { padding: 2.5rem; max-width: 1100px; margin: auto; }
+    h2 { color: #064e3b; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; }
+    .card { background: white; padding: 1.2rem; border-radius: 10px; box-shadow: 0 6px 14px rgba(0,0,0,0.08); }
+    footer { background: #064e3b; color: white; text-align: center; padding: 1.5rem; }
+    form { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 14px rgba(0,0,0,0.08); }
+    input, textarea, button { width: 100%; padding: 0.7rem; margin-top: 0.6rem; }
+    button { background: #064e3b; color: white; border: none; cursor: pointer; }
+    button:hover { background: #065f46; }
+    .quiz label { display: block; margin-top: 0.5rem; }
+    .chart { background: #e6f4f1; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Climate Change Education</h1>
+  <p>FYBSc IT Academic Project – Awareness for a Sustainable Future</p>
+</header>
+
+<nav>
+  <a href="#aim">Aim</a>
+  <a href="#about">About</a>
+  <a href="#causes">Causes</a>
+  <a href="#effects">Effects</a>
+  <a href="#data">Data</a>
+  <a href="#solutions">Solutions</a>
+  <a href="#quiz">Quiz</a>
+  <a href="#getinvolved">Contact</a>
+</nav>
+
+<section id="aim">
+  <h2>Aim & Objectives</h2>
+  <ul>
+    <li>To educate people about climate change and global warming</li>
+    <li>To explain causes, effects, and solutions</li>
+    <li>To encourage sustainable and eco‑friendly practices</li>
+    <li>To use web technology for social awareness</li>
+  </ul>
+</section>
+
+<section id="about">
+  <h2>Introduction to Climate Change</h2>
+  <p>Climate change refers to long-term changes in temperature, rainfall, and weather patterns. Human activities such as burning fossil fuels, deforestation, and industrialization are the major contributors.</p>
+</section>
+
+<section id="causes">
+  <h2>Major Causes</h2>
+  <div class="cards">
+    <div class="card"><h3>Fossil Fuels</h3><p>Coal, oil, and gas release greenhouse gases.</p></div>
+    <div class="card"><h3>Deforestation</h3><p>Reduces carbon absorption.</p></div>
+    <div class="card"><h3>Industries</h3><p>Emit pollutants and CO₂.</p></div>
+  </div>
+</section>
+
+<section id="effects">
+  <h2>Effects of Climate Change</h2>
+  <div class="cards">
+    <div class="card"><h3>Rising Temperature</h3><p>Increase in global average temperature.</p></div>
+    <div class="card"><h3>Sea Level Rise</h3><p>Melting glaciers raise sea levels.</p></div>
+    <div class="card"><h3>Extreme Weather</h3><p>Floods, droughts, cyclones.</p></div>
+  </div>
+</section>
+
+<section id="data">
+  <h2>Climate Change Data (Sample)</h2>
+  <div class="chart">
+    <p><strong>Global Temperature Increase (°C)</strong></p>
+    <p>1900: 0.0°C | 1950: 0.3°C | 2000: 0.8°C | 2023: 1.2°C</p>
+  </div>
+  <div class="chart">
+    <p><strong>CO₂ Concentration (ppm)</strong></p>
+    <p>1900: 296 | 1950: 311 | 2000: 369 | 2023: 421</p>
+  </div>
+</section>
+
+<section id="solutions">
+  <h2>Solutions & Preventive Measures</h2>
+  <ul>
+    <li>Use renewable energy</li>
+    <li>Reduce plastic usage</li>
+    <li>Afforestation</li>
+    <li>Public awareness and education</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>Climate Change Quiz</h2>
+  <div class="quiz">
+    <p>1. Which gas is mainly responsible for global warming?</p>
+    <label><input type="radio" name="q1"> Oxygen</label>
+    <label><input type="radio" name="q1"> Carbon Dioxide</label>
+    <label><input type="radio" name="q1"> Nitrogen</label>
+
+    <p>2. What causes sea level rise?</p>
+    <label><input type="radio" name="q2"> Earthquakes</label>
+    <label><input type="radio" name="q2"> Melting glaciers</label>
+    <label><input type="radio" name="q2"> Volcanoes</label>
+  </div>
+</section>
+
+<section id="getinvolved">
+  <h2>Contact & Feedback</h2>
+  <form>
+    <label>Name</label>
+    <input type="text" required />
+    <label>Email</label>
+    <input type="email" required />
+    <label>Feedback</label>
+    <textarea rows="4"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="references">
+  <h2>References</h2>
+  <ul>
+    <li>IPCC Climate Reports</li>
+    <li>NASA Climate Change</li>
+    <li>UN Environment Programme</li>
+  </ul>
+</section>
+
+<footer>
+  <p>FYBSc IT Project | Subject: Web Development | Topic: Climate Change Education</p>
+</footer>
+
+</body>
+</html>
